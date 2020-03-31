@@ -281,7 +281,7 @@ class TagInput<T> extends React.PureComponent<Props<T>, State> {
               {tags}
               <View style={[
                 styles.textInputContainer,
-                { width: this.state.inputWidth },
+//                 { width: this.state.inputWidth },
               ]}>
                 <TextInput
                   ref={this.tagInputRef}
